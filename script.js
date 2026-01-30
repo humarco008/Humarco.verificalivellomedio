@@ -6,6 +6,11 @@ function piu() {
   } else {
     voto++;
   }
+ if (voto >= 6) {
+    document.getElementById("voto").style.color = "green";
+  } else {
+    document.getElementById("voto").style.color = "red";
+  }
 }
 function meno() {
    document.getElementById("voto").innerHTML = voto;
@@ -15,4 +20,11 @@ function meno() {
     voto--;
   
   }
+ if (voto >= 6) {
+    document.getElementById("voto").style.color = "green";
+  } else {
+    document.getElementById("voto").style.color = "red";
+  }
+
 }
+ 
