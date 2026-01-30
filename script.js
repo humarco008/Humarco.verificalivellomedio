@@ -29,5 +29,6 @@ function meno() {
 }
   document.getElementById("stelle").innerHTML = "";
  for (let i = 1; i <= voto; i++) {
-    document.getElementById("stelle").innerHTML += "🌟";
+   
   }
+ 
